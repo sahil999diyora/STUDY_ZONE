@@ -1,0 +1,28 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.Error {
+  color: red;
+}
+
+.Carrd {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 32px 5px rgba(47, 60, 239, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 5px solid rgba(255, 255, 255, 0.18);
+}
+.FntFmly {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.MidImageUser {
+  mix-blend-mode: darken;
+}
+
+.CatCards:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px grey;
+}
